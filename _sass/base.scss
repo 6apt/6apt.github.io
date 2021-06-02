@@ -1,0 +1,545 @@
+// original: https://github.com/pages-themes/hacker
+// barely recognizable though
+
+@import "__colors";
+@import "code_highlight";
+@import "github_embed_dark_mode";
+
+// ====================
+// Fonts
+// ====================
+$font_headers: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
+  monospace;
+$font_main_text: arial, sans-serif;
+
+// ====================
+// Colors
+// ====================
+// Text color
+$highest_emphasis_text_color: rgba(255, 255, 255, 1);
+$high_emphasis_text_color: rgba(255, 255, 255, 0.87);
+$medium_high_emphasis_text_color: rgba(255, 255, 255, 0.75);
+$medium_emphasis_text_color: rgba(255, 255, 255, 0.55);
+$low_emphasis_text_color: rgba(255, 255, 255, 0.38);
+
+// Inline code
+$inline_code_color: $high_emphasis_text_color;
+
+// Logo
+$logo_background_color: #0c0c0c;
+
+// Nav bar
+$nav_background_color: #080707;
+$nav_link_color: #d8d8d8;
+$nav_link_hover: #777777;
+
+// Main body bg
+$container_background_color: #121212;
+
+// Option 1: greyscale background
+// $bg_color_dark: rgba(12, 12, 12, 1);
+// $bg_color_light: rgba(24, 24, 24, 1);
+
+// Option 2: red-ish warm background <-- I like this one, but does not work on all monitors and all browsers. Looks stripy
+// $bg_color_dark: rgba(15, 10, 12, 1);
+// $bg_color_light: rgba(35, 32, 29, 1);
+
+// Option 3: solid color
+$bg_color_light: $logo_background_color;
+$bg_color_dark: $logo_background_color;
+
+$background_color: $logo_background_color
+  linear-gradient(
+    90deg,
+    $logo_background_color 0%,
+    $bg_color_dark 10%,
+    $bg_color_light 40%,
+    $bg_color_light 60%,
+    $bg_color_dark 90%,
+    $logo_background_color 100%
+  );
+
+// Links
+$link_color: #c47b06;
+$link_hover_background: rgba(0, 0, 0, 0.4);
+
+$header_color: $link_color;
+$separator_color: $low_emphasis_text_color;
+
+$article_border: 1px solid rgba(255, 255, 255, 0.05);
+
+// Tag
+$current_tag_color: desaturate(
+  $color: $link_color,
+  $amount: 20,
+);
+
+// ====================
+// Common
+// ====================
+* {
+  // Needed so that width:100% includes the padding
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+// Both the body and the nav should have the same so their width is the same
+.main-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+
+  // padding is smaller the smaller your viewport is
+  padding-right: 2%;
+  padding-left: 2%;
+
+  border-right: $article_border;
+  border-left: $article_border;
+}
+
+.middle-container {
+    width: 80%;
+}
+
+.side-container {
+    flex: 0 0 20%;
+    margin-left: asd;
+}
+
+// ====================
+// Body
+// ====================
+body {
+  // margins
+  margin: 0;
+  padding: 0;
+
+  // text
+  color: $medium_high_emphasis_text_color;
+  font-family: $font_main_text;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  // background
+  background: $background_color;
+  background-size: 2000px;
+  background-position-x: center;
+  background-repeat: repeat-y;
+}
+
+// ====================
+// Header
+// ====================
+header {
+  background: $logo_background_color;
+}
+
+.header-logo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.header-logo img {
+  filter: contrast(110%); // maybe
+  -webkit-filter: contrast(110%); // maybe
+}
+
+.header-logo img:hover {
+  filter: contrast(100%); // maybe
+  -webkit-filter: contrast(100%); // maybe
+  // -webkit-filter: grayscale(100%);
+  //   -webkit-filter: brightness(1.1); // maybe
+  // -webkit-filter: blur(1px);
+  // -webkit-filter: saturate(1.2); // maybe
+  //   -webkit-filter: hue-rotate(-45deg); // maybe
+  // -webkit-filter: opacity(50%);
+  // -webkit-filter: sepia(100%);
+  // -webkit-filter: invert(10%);
+}
+
+nav {
+  background: $nav_background_color;
+  border-top: $article_border;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  margin: 0;
+}
+
+.nav-link {
+  font-family: $font_headers;
+
+  display: inline;
+  font-size: 18px;
+  color: $medium_emphasis_text_color;
+  letter-spacing: -0.03em;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+
+  //   transition: background-color 0.1s ease-out, color 0.1s ease-out;
+  //   -webkit-transition: background-color 0.1s ease-out, color 0.1s ease-out;
+
+  border-radius: 2px;
+  //   border: 1px solid $nav_background_color;
+}
+
+.nav-link:hover {
+  // border: 1px solid $low_emphasis_text_color;
+  color: $nav_link_color;
+  // background-color: $link_hover_background;
+}
+
+.nav-link-current {
+  color: $nav_link_color;
+}
+
+// ====================
+// Footer
+// ====================
+footer {
+  margin-top: 50px;
+
+  width: 100%;
+  text-align: center;
+}
+
+// Make sure image and text of links stay together on the same line
+footer a {
+  //   color: $high_emphasis_text_color;
+  display: inline-block;
+
+  padding: 8px;
+  border-radius: 4px;
+}
+
+footer a:hover {
+  background-color: $link_hover_background;
+}
+
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  //   vertical-align: top;
+
+  margin-top: 2px;
+  margin-right: 8px;
+  float: left;
+}
+
+// ====================
+// Pagination
+// ====================
+.pagination {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.pagination-element {
+  border-radius: 4px;
+  padding: 8px;
+
+  color: $link_color;
+  border: $article_border;
+}
+
+.pagination a:hover {
+  text-decoration: none;
+  background-color: $link_hover_background;
+}
+
+// ====================
+// home page
+// ====================
+.home-posts a {
+  color: inherit;
+}
+
+.home-posts a:hover {
+  text-decoration: none;
+}
+
+.home-posts-title {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.home-posts-description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.home-post {
+  padding: 20px;
+  padding-bottom: 0px; // The padding will come from the .home-post-excerpt.
+  border-radius: 6px;
+}
+
+.home-post-excerpt {
+  padding-top: 0px;
+  padding-bottom: 45px;
+}
+
+.home-post:hover {
+  background-color: $link_hover_background;
+}
+
+.home-post h1 {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-right: 10px;
+  font-size: 1.4em;
+}
+
+.post-title-and-tags {
+  display: flex;
+  justify-content: space-between;
+}
+
+// Make tags be on a new line if the screen is too small
+@media (max-width: 600px) {
+  .post-title-and-tags {
+    display: block;
+  }
+}
+
+.post-title {
+  margin-top: 0px;
+  padding-top: 0px;
+  border: 0px;
+}
+
+.post-time {
+  font-size: 0.875em;
+  color: $medium_emphasis_text_color;
+}
+
+.post-author {
+  font-size: 0.875em;
+  color: $medium_emphasis_text_color !important;
+}
+
+.post-author:hover {
+  color: $medium_high_emphasis_text_color !important;
+  text-decoration: underline !important;
+}
+
+// ====================
+// tag page
+// ====================
+.tag {
+  padding: 1px;
+  border-radius: 2px;
+  margin: 2px;
+
+  background: $code_bg;
+  border: $code_border;
+
+  color: $high_emphasis_text_color !important;
+  font-size: 0.875em;
+  font-family: monospace;
+}
+
+.tag:hover {
+  border: 1px solid $low_emphasis_text_color;
+  text-decoration: none;
+}
+
+.current-tag {
+  color: $current_tag_color !important;
+}
+
+.tag-list {
+  max-width: 350px;
+}
+
+.tag-in-list {
+  margin: 3px;
+}
+
+// ====================
+// archive page
+// ====================
+.archive-time {
+  font-family: monospace;
+  letter-spacing: -0.07em;
+}
+
+// ====================
+// Main content
+// ====================
+.content-container {
+  background: $container_background_color;
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section a:hover {
+  text-decoration: underline;
+  // background-color: rgba(0, 0, 0, 0.9);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 1.2em;
+  font-weight: normal;
+  font-family: $font_headers;
+  color: $header_color;
+  letter-spacing: -0.03em;
+  //   border-bottom: 1px solid $low_emphasis_text_color;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+  border-bottom: 1px solid $low_emphasis_text_color;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+// ====================
+// Links
+// ====================
+// :active       Adds a style to an element that is activated
+// :focus        Adds a style to an element that has keyboard input focus
+// :hover        Adds a style to an element when you mouse over it
+// :lang         Adds a style to an element with a specific lang attribute
+// :link         Adds a style to an unvisited link
+// :visited      Adds a style to a visited link
+a {
+  color: $link_color;
+  text-decoration: none; // Removes underlines
+}
+
+// ====================
+// enumerates
+// ====================
+// Avoid big margin between a paragraph and a list
+p {
+  margin: 0em;
+  margin-top: 0.9em;
+}
+
+ul,
+ol {
+  margin: 0.25em;
+}
+
+// ====================
+// quote
+// ====================
+blockquote {
+  padding-left: 10px;
+  border-left: 1px solid $high_emphasis_text_color;
+  color: $medium_emphasis_text_color;
+}
+
+// ====================
+// code
+// ====================
+pre {
+  background: $code_bg;
+  border: $code_border;
+  padding: 10px;
+  font-size: 0.875em;
+  border-radius: 2px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+// inline code
+code.highlighter-rouge {
+  padding: 1px;
+  border-radius: 2px;
+
+  background: $code_bg;
+  border: $code_border;
+
+//   color: $high_emphasis_text_color;
+  color: $inline_code_color;
+  font-size: 0.875em;
+}
+
+// ====================
+// text modifiers (bold)
+// ====================
+// Bold option 1
+// strong {
+//   text-decoration: underline;
+// }
+
+// Bold option 2
+strong {
+  font-weight: bold;
+  color: $high_emphasis_text_color;
+}
+
+// Bold option 3
+// strong {
+//   font-weight: bold;
+//   color: $highest_emphasis_text_color;
+//   background-color: rgba(255, 255, 255, 0.01);
+//   padding-top: 1px;
+//   padding-bottom: 1px;
+//   margin-top: -1px;
+//   margin-bottom: -1px;
+
+//   padding-left: 2px;
+//   padding-right: 2px;
+
+//   border: 1px solid rgba(255, 255, 255, 0.1);
+//   // text-decoration: underline;
+// }
+
+// ====================
+// tables
+// ====================
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid $low_emphasis_text_color;
+  padding: 5px 10px;
+}
+
+// ====================
+// horizontal ruler
+// ====================
+hr {
+  border: 0px;
+  border-bottom: 1px solid $separator_color;
+}

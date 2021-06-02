@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- The tag we are looking for -->
+{% assign current_tag = page.url | split: '/' | last | url_decode %}
+
+<!-- The post that contain this tag -->
+{% assign posts_to_list = "" | split: "" %}
+
+{% for post in site.documents %}
+  {% if post.tags contains current_tag %}
+    {% assign posts_to_list = posts_to_list | push: post %}
+  {% endif %}
+{% endfor %}
+
+{% assign title="#" | append: current_tag %}
+{% include post_list.html title=title posts_to_list=posts_to_list %}

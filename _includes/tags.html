@@ -1,0 +1,17 @@
+<div class="tag-list">
+  {% assign tag_names = "" | split: "" %}
+
+  <!-- get tag names from tag urls -->
+  {% for tag in site.tags %}
+    {% assign tag_name = tag.url | split: '/' | last | url_decode %}
+    {% assign tag_names = tag_names | push: tag_name %}
+  {% endfor %}
+
+  <!-- sort tags alphabetically -->
+  {% assign tag_names = tag_names | sort %}
+
+  <!-- actually render the tags -->
+  {% for tag_name in tag_names %}
+    {% include single_tag.html tag_name=tag_name %}
+  {% endfor %}
+</div>

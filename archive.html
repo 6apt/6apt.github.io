@@ -1,0 +1,26 @@
+---
+layout: page
+title: Archive
+---
+
+{% assign posts_to_list = site.documents | where: "archivable", true | sort: "date" | reverse %}
+{% capture first_year %}{{ posts_to_list[0].date | date: '%Y' }}{% endcapture %}
+{% assign current_year = first_year %}
+
+<h4>{{ first_year }}</h4>
+<ul>
+
+{% for post in posts_to_list %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != current_year %}
+    {% assign current_year = year %}
+    </ul>
+    <h4>{{ year }}</h4>
+    <ul>
+  {% endif %}
+  <li>
+    <time class="archive-time"> {{ post.date | date:"%d %b" }} | </time>
+    <a href="{{ post.url }}"> {{ post.title }} </a>
+  </li>
+{% endfor %}
+</ul>

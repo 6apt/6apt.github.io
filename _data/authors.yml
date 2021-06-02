@@ -1,0 +1,4 @@
+# The "name" field is here for feed.xml. Otherwise it was putting "link: https://twitter.com/V_jofra" as the name
+jofra:
+    name: jofra
+

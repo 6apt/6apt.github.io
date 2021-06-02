@@ -1,0 +1,7 @@
+{%- assign page_url = page.url | remove: ".html" -%}
+{%- assign link_current_class = "" -%}
+{%- if page_url == include.link_url or ((include.link_url == "/index" or include.link_url == "/articles") and page_url == "/") -%}
+  {%- assign link_current_class = "nav-link-current" -%}
+{%- endif -%}
+
+<a class="nav-link {{link_current_class}}" href="{{include.link_url}}">{{include.link_name}}</a>

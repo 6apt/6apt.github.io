@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% assign post = page %}
+
+<article>
+  <!-- Title -->
+  <div class="post-title-and-tags">
+    <h1 class="post-title">{{ post.title }}</h1>
+    {% include post_tags.html %}
+  </div>
+  {% include post_time_and_authors.html %}
+  <br>
+
+  <!-- Content -->
+  {{ content }}
+</article>
+
+<br>
+<hr>
+
+{% assign next_sym = ">" | escape %}
+{% assign prev_sym = "<" | escape %}
+<div class="pagination">
+  {% if page.previous.url %}
+    <a class="pagination-element" href="{{page.previous.url | relative_url}}"> {{ prev_sym }} {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="pagination-element" href="{{page.next.url}}">{{page.next.title}} {{ next_sym }}</a>
+  {% endif %}
+</div>

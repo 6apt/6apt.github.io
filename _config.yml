@@ -1,0 +1,73 @@
+source: .
+destination: ./_site
+
+baseurl: /
+title: 6a.pt climbing
+
+author:
+  name: "jofra"
+
+# default variables
+defaults:
+  -
+    scope:
+        path: ""
+        type: tags
+    values:
+        layout: "tag"
+        permalink: /tags/:title
+        archivable: false
+  -
+    scope:
+        path: ""
+        type: posts
+    values:
+        permalink: /posts/:title
+        layout: "post"
+        authors: ["jofra"]
+        archivable: true
+
+# All collections
+collections:
+  tags:
+    output: true
+  articles:
+    output: true
+
+# jekyll-paginate (https://jekyllrb.com/docs/pagination/)
+paginate: 50
+paginate_path: /page/:num/
+
+# jekyll-compress-html (https://github.com/penibelst/jekyll-compress-html)
+compress_html:
+  clippings: all
+  endings: []
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+
+# sass
+sass:
+    sass_dir: _sass
+    style: compact
+
+# Should publish post with dates in the future
+future: false
+
+# jekyll-feed: generated feed.xml for RSS (but not really)
+# We are not using the plugin, the file feed.xml is changed slightly from the original
+# Reasons: More collections in a single feed, aka articles and posts in there and not just posts
+feed:
+  excerpt_only: true
+  posts_limit: 100
+
+# jekyll-sitemap: generates a sitemap.xml file for crawling purposes
+# jekyll-seo-tag: generates metadata for better indenting and display of content in link previews
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Custom variables
+# google_analytics : "UA-102896129-1"

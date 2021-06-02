@@ -1,0 +1,67 @@
+@import "__colors";
+
+// Gist Embed dark mode
+
+// ====================
+// Main body and borders
+.gist-file,
+.gist-data,
+.gist-meta {
+  background-color: $code_bg !important;
+  border: $code_border !important;
+}
+
+.gist-meta {
+  border-bottom: 0 !important;
+}
+
+.gist-data tbody {
+  background-color: $code_bg !important;
+}
+
+// Line Numbers
+.gist-data tbody td:nth-of-type(1) {
+  color: $plaintext !important;
+  border-left: 0 !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+  border-right: $code_border !important;
+}
+
+// ====================
+// Code tokens
+// dots, paranthesis, etc
+.gist-data tbody td:nth-of-type(2) {
+  color: $plaintext !important;
+}
+
+// Comments
+.pl-c {
+  color: $comment !important;
+}
+
+// keywords
+.pl-k {
+  color: $keyword !important;
+}
+
+// types
+.pl-smi {
+  color: $name-space !important;
+}
+
+// Function calls
+.pl-en {
+  color: $function_call !important;
+}
+
+// literals and operators? (on .ql)
+.pl-c1 {
+  color: $operator !important;
+}
+
+// strings
+.pl-pds,
+.pl-s {
+  color: $string !important;
+}

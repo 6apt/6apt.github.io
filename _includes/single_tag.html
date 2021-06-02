@@ -1,0 +1,8 @@
+{% assign current_tag = page.url | split: '/' | last | url_decode %}
+
+<!-- Add a different style to a tag which we are currently looking at in the tags page -->
+{% if include.tag_name == current_tag %}
+  <a class="tag current-tag" href="/">{{include.tag_name}}</a>
+{% else %}
+  <a class="tag" href="/tags/{{include.tag_name}}">{{include.tag_name}}</a>
+{% endif %}

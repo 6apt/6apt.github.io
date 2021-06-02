@@ -1,0 +1,35 @@
+{% if include.title %}
+  <h1 class="home-posts-title">{{ include.title }}</h1>
+  {% if include.description %}
+    <p class="home-posts-description">{{ include.description }}</p>
+  {% endif %}
+  <hr>
+{% endif %}
+
+<div class="home-posts">
+  {% for post in include.posts_to_list %}
+    <div class="home-post">
+      <!-- title and tags -->
+      <a href="{{ post.url }}">
+        <div class="post-title-and-tags">
+          <h1 class="post-title">{{ post.title }}</h1>
+          {% include post_tags.html %}
+        </div>
+      </a>
+
+      <!-- excerpt -->
+      {% include post_time_and_authors.html %}
+      <a href="{{ post.url }}">
+        <div>
+          <p class="home-post-excerpt">
+            <!-- TODO: Here we would like to remove <a href...> because otherwise our previous href to the post.url link is overwritten -->
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Add an extra newline between posts -->
+    <br />
+  {% endfor %}
+</div>

@@ -1,0 +1,13 @@
+{% unless post.hidden_date %}
+  <time class="post-time" datetime="{{ post.date | date_to_xmlschema }}">
+    {{- post.date | date_to_string -}}
+  </time>
+  <!-- <span> | </span> -->
+{% endunless %}
+
+<!-- {% for author in post.authors %}
+  <a class="post-author" target="_blank" href={{site.data.authors[author].link}}>{{author}}</a>
+  {%- if forloop.last == false -%}
+    <span>, </span>
+  {% endif %}
+{% endfor %} -->

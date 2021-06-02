@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="main-container content-container">
+      <div style="display: flex">
+        <div class="middle-container">
+          <section id="main_content">{{ content }}</section>
+        </div>
+
+        <div class="side-container">
+            {% include tags.html %}
+        </div>
+      </div>
+
+      {% include footer.html %}
+    </div>
+
+    {% if site.google_analytics %} {%include analytics.html %} {% endif %}
+  </body>
+</html>
