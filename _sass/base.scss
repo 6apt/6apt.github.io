@@ -94,18 +94,28 @@ $current_tag_color: desaturate(
   // padding is smaller the smaller your viewport is
   padding-right: 2%;
   padding-left: 2%;
+}
+
+.content-container {
+  background: $container_background_color;
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  padding-right: 10px;
+  padding-left: 10px;
 
   border-right: $article_border;
   border-left: $article_border;
 }
 
 .middle-container {
-    width: 80%;
+  width: 80%;
 }
 
 .side-container {
-    flex: 0 0 20%;
-    margin-left: asd;
+  flex: 0 0 20%;
+  margin-left: 20px;
 }
 
 // ====================
@@ -271,16 +281,15 @@ footer a:hover {
 }
 
 .home-posts-title {
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .home-posts-description {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
-
 
 .home-post {
   padding: 20px;
@@ -381,13 +390,6 @@ footer a:hover {
 // ====================
 // Main content
 // ====================
-.content-container {
-  background: $container_background_color;
-
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
 section img {
   max-width: 100%;
 }
@@ -487,7 +489,7 @@ code.highlighter-rouge {
   background: $code_bg;
   border: $code_border;
 
-//   color: $high_emphasis_text_color;
+  //   color: $high_emphasis_text_color;
   color: $inline_code_color;
   font-size: 0.875em;
 }

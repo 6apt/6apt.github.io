@@ -9,13 +9,14 @@ layout: compress
   <body>
     {% include header.html %}
 
-    <div class="main-container content-container">
+    <div class="main-container">
       <div style="display: flex">
-        <div class="middle-container">
+        <div class="content-container middle-container">
           <section id="main_content">{{ content }}</section>
         </div>
 
-        <div class="side-container">
+        <div class="content-container side-container">
+            <h3 class="post-title">Tags</h3>
             {% include tags.html %}
         </div>
       </div>
