@@ -8,6 +8,3 @@ TODO:
  - logo
  - google analytics
  - center image
-
-DONE:
-
