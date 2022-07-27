@@ -1,5 +1,5 @@
 ---
-title: Randonee ao parc nacional des Ecrins (GR39)
+title: Randonee ao parc nacional des Ecrins (GR54B)
 published: false
 ---
 Este artigo descreve o nosso randonee de 3 dias no parc nacional dos Ecrins e todas as suas peripécias.
@@ -110,26 +110,4 @@ O mergulho realmente refrescou-me! Durante as primeiras 2h da subida (estimada e
 
 Lá em cima, exausto, deitei-me outros 10min a tentar recuperar as forcas para descer -500m aos esses até ao Lac de la Muzelle. Uma hora mais tarde, lá chegamos, e após uma pequena pausa no Lac, fomos comer qualquer coisa ao refúgio onde o Boyan nos esperava há 1h??. 
 
-Eu e o Filipe dividimos uma fatia de quiche de legumes e batata (que eu fui comendo devagar para ver se não voltava a sair) e uma tarte de mirtilos -- good old mountain food. Estivemos na conversa 1h e, após aprendermos que o refugio era reabastecido de 3 em 3 semanas de helicóptero, pagámos, e estávamos prontos para a descida final de -1000m -- a mesma que tínhamos feito no primeiro dia na direção oposta -- até chegarmos finalmente aos carros.
-
-Começámos a um bom ritmo e pouco depois de arrancarmos, começou a chuviscar e tivemos de por o impermeável e o protector de chuva da mochila. Continuámos a um ritmo acelerado. O Filipe à frente, o Boyan no meio, e eu atrás. O Boyan a um certo ponto virou-se para mim e disse: "Estou a tentar tudo mas não consigo acompanhar o Filipe" -- eu ri-me e concordei que as descidas são o terreno do Filipe e que não é fácil acompanhá-lo. 
-
-FOTO
-
-Eventualmente passei o Boyan e fiquei atrás do Filipe; o Boyan começou a ficar para trás. Passados talvez 15 minutos, parámos para largar líquidos na árvore mais próxima e esperámos pelo Boyan que nos disse que não precisávamos de esperar por ele que ele preferia ir mais devagar nas descidas -- encontrávamo-nos lá em baixo.
-
-E assim começou uma descida inesquecível. Tenho pena de ter apenas 1 foto das 2 horas de descida seguintes (pedir ao Francisco uns sketches??), porque as palavras não lhe vão fazer justiça. 
-
-FOTOS
-
-Começamos por andar rápido, mas do nada começamos a correr. A noite estava a cair e, como o Filipe tem a visão noturna de uma toupeira (as toupeiras são cegas),  eu passei para a frente. Pouco depois ligámos os frontais e continuámos pela noite cerrada numa zona de mais baixa altitude em que a floresta envolvia o trilho. A chuva piorava e após passarmos uns escaladores que nos devem ter achados loucos a correr por ali a baixo às 21h da noite pelo chuva e escuridão, voltámos a por os impermeáveis que tínhamos tirado antes de largar o Boyan. E a chuva não abrandou, o trilho virou lama e a um certo ponto até granizo caiu. Isso não nos impediu de continuar a correr pelo trilho abaixo durante uns 45 minutos nestas condições... não conseguíamos parar. Já perto do fim, o trilho é mais rochoso, e era preciso cuidado com as pedras molhadas, mas com jeitinho fomos a correr até ao fim. 
-
-Não foi um mar de rosas, doeram os pés, doeram as pernas, doeu a alma, mas mantivemos sempre os espíritos em alta, estivemos uns para os outros (mais o Filipe para mim, really), e acabámos em grande numa descida inesquecível. E já em Geneve, sempre fomos ao Ramen que tinha ajudado a manter a moral em cima!
-
-FOTO dos 3
-
----
-
-Takeaways:
- - levar mais comida fresca - uma fruta ou XXX podem fazer muita diferenca que comer barras e comidas liofilizadas durante dias enjoa rapido.
- - mesmo estando a sentir fresco se calhar abrandar um pouco nas subidas pelo menos ate conhecer bem o proprio ritmo é uma boa ideia
+Eu e o Filipe dividimos uma fatia de quiche de legumes e batata (que eu fui comendo devagar para ver se não voltava a sair) e uma tarte de mirtilos -- good old mo
