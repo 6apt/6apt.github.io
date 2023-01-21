@@ -88,7 +88,7 @@ $current_tag_color: desaturate(
 // Both the body and the nav should have the same so their width is the same
 .main-container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
 
   // padding is smaller the smaller your viewport is
@@ -110,12 +110,15 @@ $current_tag_color: desaturate(
 }
 
 .middle-container {
-  width: 80%;
+  width: 75%;
 }
 
 .side-container {
-  flex: 0 0 20%;
+  flex: 0 0 25%;
+  max-width: 25%;
   margin-left: 20px;
+
+//   height: 100%;
 }
 
 // ====================
@@ -392,11 +395,18 @@ footer a:hover {
 // ====================
 section img {
   max-width: 100%;
+  transition:transform 0.25s ease;
 }
 
-section a:hover {
-  text-decoration: underline;
-  // background-color: rgba(0, 0, 0, 0.9);
+article img:hover {
+    cursor: url('/assets/icons/magnifier_32_32.png'), auto;
+    // cursor: grabbing;
+    transform:scale(1.01);
+
+}
+
+article img:active {
+    transform:scale(2.0);
 }
 
 h1,
@@ -443,6 +453,11 @@ h4 {
 a {
   color: $link_color;
   text-decoration: none; // Removes underlines
+}
+
+section a:hover {
+    text-decoration: underline;
+    // background-color: rgba(0, 0, 0, 0.9);
 }
 
 // ====================
