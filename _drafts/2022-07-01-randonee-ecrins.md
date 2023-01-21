@@ -5,8 +5,7 @@ published: true
 
 Este artigo descreve o nosso randonee de 3 dias no parc nacional dos Ecrins e todas as suas peripécias.
 
-FOTO
-(da direita para a esquerda: Vasco, Flip, Boyan)
+FOTO: 20220703_090320
 
 # Trajecto
 
@@ -41,7 +40,7 @@ TODO: Verificar todas as distancias
 
 
 # Dia 1
-Começámos por estacionar no sítio errado e quase começámos pelo trilho errado. Felizmente, o Boyan estava atento e reparou que as marcas amarelas não eram as de um GR (brancas e vermelhas) e rapidamente fomos estacionar ao pé do trilho pretendido (GR XXXX) 
+Começámos por estacionar no sítio errado e quase começámos pelo trilho errado. Felizmente, o Boyan estava atento e reparou que as marcas amarelas não eram as de um GR (brancas e vermelhas) e rapidamente fomos estacionar ao pé do trilho pretendido (GR XXXX)
 
 Já no trilho certo, partimos os 3 de Vénosc para iniciar a primeira subida com +1100m de desnível. Durante 3 a 4 horas trilhámos pelo nevoeiro denso, passando primeiro por uma zona florestal e depois por grandes cascatas, rios, e marmotas até finalmente nos deslumbrarmos com o Lac de la Muzelle.
 
@@ -51,7 +50,7 @@ No Lac, sabendo que estávamos folgados de tempo no primeiro dia, almoçámos na
 
 FOTOS
 
-Pelas 15h e já sem nevoeiro lá iniciámos a subida até o Col de la Muzelle (2613m) e depois a muito íngreme descida do outro lado (que olhando de baixo parecia mesmo impossível). 
+Pelas 15h e já sem nevoeiro lá iniciámos a subida até o Col de la Muzelle (2613m) e depois a muito íngreme descida do outro lado (que olhando de baixo parecia mesmo impossível).
 
 FOTOS
 
@@ -60,7 +59,7 @@ Bivacámos não muito longe da Cabane du Ramu, fizemos o jantar, e falámos dura
 FOTOS
 
 ## Dia 2
-Arrumámos as tendas, comemos qualquer coisa, e descemos tudo o que tínhamos subido no dia anterior até à pequena vila de Valsenestre. E como descemos, agora era tempo de voltar a subir tudo de novo. 
+Arrumámos as tendas, comemos qualquer coisa, e descemos tudo o que tínhamos subido no dia anterior até à pequena vila de Valsenestre. E como descemos, agora era tempo de voltar a subir tudo de novo.
 
 O Boyan, o nosso amigo francês que fazia amigos com toda a gente, meteu conversa com um local vestido à caçador que nos falou de uma subida alternativa mais abrigada do sol, mas 15 minutos mais lenta que a subida do GR que estava estimada em 3h45. Visto que estavam mais de 30ºC, eram 11h30, e tínhamos 4h e +1100m de desnível pela frente, achámos agradável a perspectiva de umas sombras pelo caminho e pela alternativa fomos.
 
@@ -70,7 +69,7 @@ No início da dura subida eu (Vasco) estava fortíssimo, mas passadas 2h, ainda 
 
 FOTOS
 
-Comigo já só a pensar em pôr um pé à frente do outro lá chegámos à cabana onde o Boyan já estava a fazer conversa com o pastor de 1300 ovelhas, algumas das quais tinham sido caçadas por lobos em plena luz do dia apenas 2 dias antes. Almoçámos na mesa do pastor em pleno sol (eu comi só umas amêndoas que estava mal disposto), enchemos as garrafas de água, e juntámo-nos de novo ao GR para subir os restantes XXm de altura que faltavam até ao Lac Labarre. 
+Comigo já só a pensar em pôr um pé à frente do outro lá chegámos à cabana onde o Boyan já estava a fazer conversa com o pastor de 1300 ovelhas, algumas das quais tinham sido caçadas por lobos em plena luz do dia apenas 2 dias antes. Almoçámos na mesa do pastor em pleno sol (eu comi só umas amêndoas que estava mal disposto), enchemos as garrafas de água, e juntámo-nos de novo ao GR para subir os restantes XXm de altura que faltavam até ao Lac Labarre.
 
 FOTOS
 
@@ -100,11 +99,11 @@ Do outro lado esperava-nos o troço de descida mais técnico da viagem, mas como
 
 FOTOS
 
-Descidas é o terreno do Filipe e foi a vez dele de ir a voar nos seguintes -700?m de desnível. A aproximar-se da hora de almoço, o calor começou a fazer-se sentir, mas a sombra das árvores, os rios, e as cascatas onde eu enchia o boné de água e despejava na cabeça repetidamente, ajudavam a refrescar. 
+Descidas é o terreno do Filipe e foi a vez dele de ir a voar nos seguintes -700?m de desnível. A aproximar-se da hora de almoço, o calor começou a fazer-se sentir, mas a sombra das árvores, os rios, e as cascatas onde eu enchia o boné de água e despejava na cabeça repetidamente, ajudavam a refrescar.
 
 FOTOS
 
-Ainda assim, a descida custou como a minha cara transparecia nesta foto. 
+Ainda assim, a descida custou como a minha cara transparecia nesta foto.
 
 FOTOS
 
@@ -116,21 +115,21 @@ Descemos o pouco que nos faltava até ao Lac onde tivemos um breve reencontro co
 
 O mergulho realmente refrescou-me! Durante as primeiras 2h da subida (estimada em 3h/4h) senti-me de novo em forma -- ainda a arrotar pelo caminho a relembrar que continuava com o estômago estranho, mas em forma em tudo o resto -- e então fomos em bom ritmo por ali a cima. O problema é que a subida não se fazia em 2h e do nada, morri completamente... não sei se foi do calor, se as pernas estavam fracas, ou se se começava a notar a falta de calorias (estava a funcionar a pouco mais que amêndoas), mas morri. O resto da subida foi dolorosa, mas um pe à frente do outro, lá chegamos. Ainda assim pelo caminho consegui ganhar as forcas necessárias para tirar esta foto ao Filipe antes de ali nos deitarmos 10minutos (quase que adormecíamos).
 
-Lá em cima, exausto, deitei-me outros 10min a tentar recuperar as forcas para descer -500m aos esses até ao Lac de la Muzelle. Uma hora mais tarde, lá chegamos, e após uma pequena pausa no Lac, fomos comer qualquer coisa ao refúgio onde o Boyan nos esperava há 1h??. 
+Lá em cima, exausto, deitei-me outros 10min a tentar recuperar as forcas para descer -500m aos esses até ao Lac de la Muzelle. Uma hora mais tarde, lá chegamos, e após uma pequena pausa no Lac, fomos comer qualquer coisa ao refúgio onde o Boyan nos esperava há 1h??.
 
 Eu e o Filipe dividimos uma fatia de quiche de legumes e batata (que eu fui comendo devagar para ver se não voltava a sair) e uma tarte de mirtilos -- good old mountain food. Estivemos na conversa 1h e, após aprendermos que o refugio era reabastecido de 3 em 3 semanas de helicóptero, pagámos, e estávamos prontos para a descida final de -1000m -- a mesma que tínhamos feito no primeiro dia na direção oposta -- até chegarmos finalmente aos carros.
 
-Começámos a um bom ritmo e pouco depois de arrancarmos, começou a chuviscar e tivemos de por o impermeável e o protector de chuva da mochila. Continuámos a um ritmo acelerado. O Filipe à frente, o Boyan no meio, e eu atrás. O Boyan a um certo ponto virou-se para mim e disse: "Estou a tentar tudo mas não consigo acompanhar o Filipe" -- eu ri-me e concordei que as descidas são o terreno do Filipe e que não é fácil acompanhá-lo. 
+Começámos a um bom ritmo e pouco depois de arrancarmos, começou a chuviscar e tivemos de por o impermeável e o protector de chuva da mochila. Continuámos a um ritmo acelerado. O Filipe à frente, o Boyan no meio, e eu atrás. O Boyan a um certo ponto virou-se para mim e disse: "Estou a tentar tudo mas não consigo acompanhar o Filipe" -- eu ri-me e concordei que as descidas são o terreno do Filipe e que não é fácil acompanhá-lo.
 
 FOTO
 
 Eventualmente passei o Boyan e fiquei atrás do Filipe; o Boyan começou a ficar para trás. Passados talvez 15 minutos, parámos para largar líquidos na árvore mais próxima e esperámos pelo Boyan que nos disse que não precisávamos de esperar por ele que ele preferia ir mais devagar nas descidas -- encontrávamo-nos lá em baixo.
 
-E assim começou uma descida inesquecível. Tenho pena de ter apenas 1 foto das 2 horas de descida seguintes (pedir ao Francisco uns sketches??), porque as palavras não lhe vão fazer justiça. 
+E assim começou uma descida inesquecível. Tenho pena de ter apenas 1 foto das 2 horas de descida seguintes (pedir ao Francisco uns sketches??), porque as palavras não lhe vão fazer justiça.
 
 FOTOS
 
-Começamos por andar rápido, mas do nada começamos a correr. A noite estava a cair e, como o Filipe tem a visão noturna de uma toupeira (as toupeiras são cegas),  eu passei para a frente. Pouco depois ligámos os frontais e continuámos pela noite cerrada numa zona de mais baixa altitude em que a floresta envolvia o trilho. A chuva piorava e após passarmos uns escaladores que nos devem ter achados loucos a correr por ali a baixo às 21h da noite pelo chuva e escuridão, voltámos a por os impermeáveis que tínhamos tirado antes de largar o Boyan. E a chuva não abrandou, o trilho virou lama e a um certo ponto até granizo caiu. Isso não nos impediu de continuar a correr pelo trilho abaixo durante uns 45 minutos nestas condições... não conseguíamos parar. Já perto do fim, o trilho é mais rochoso, e era preciso cuidado com as pedras molhadas, mas com jeitinho fomos a correr até ao fim. 
+Começamos por andar rápido, mas do nada começamos a correr. A noite estava a cair e, como o Filipe tem a visão noturna de uma toupeira (as toupeiras são cegas),  eu passei para a frente. Pouco depois ligámos os frontais e continuámos pela noite cerrada numa zona de mais baixa altitude em que a floresta envolvia o trilho. A chuva piorava e após passarmos uns escaladores que nos devem ter achados loucos a correr por ali a baixo às 21h da noite pelo chuva e escuridão, voltámos a por os impermeáveis que tínhamos tirado antes de largar o Boyan. E a chuva não abrandou, o trilho virou lama e a um certo ponto até granizo caiu. Isso não nos impediu de continuar a correr pelo trilho abaixo durante uns 45 minutos nestas condições... não conseguíamos parar. Já perto do fim, o trilho é mais rochoso, e era preciso cuidado com as pedras molhadas, mas com jeitinho fomos a correr até ao fim.
 
 Não foi um mar de rosas, doeram os pés, doeram as pernas, doeu a alma, mas mantivemos sempre os espíritos em alta, estivemos uns para os outros (mais o Filipe para mim, really), e acabámos em grande numa descida inesquecível. E já em Geneve, sempre fomos ao Ramen que tinha ajudado a manter a moral em cima!
 
