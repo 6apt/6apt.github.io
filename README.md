@@ -2,12 +2,10 @@
 published: false
 ---
 
-RUN: bundle exec jekyll serve
+RUN: bundle exec jekyll serve --drafts
 
 TODO:
  - logo
  - google analytics
  - center image
-
-DONE:
-
+ - decide the website colors
