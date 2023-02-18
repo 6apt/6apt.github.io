@@ -9,23 +9,21 @@ author:
 
 # default variables
 defaults:
-  -
-    scope:
-        path: ""
-        type: tags
+  - scope:
+      path: ""
+      type: tags
     values:
-        layout: "tag"
-        permalink: /tags/:title
-        archivable: false
-  -
-    scope:
-        path: ""
-        type: posts
+      layout: "tag"
+      permalink: /tags/:title
+      archivable: false
+  - scope:
+      path: ""
+      type: posts
     values:
-        permalink: /posts/:title
-        layout: "post"
-        authors: ["jofra"]
-        archivable: true
+      permalink: /posts/:title
+      layout: "post"
+      authors: ["jofra"]
+      archivable: true
 
 # All collections
 collections:
@@ -50,8 +48,8 @@ compress_html:
 
 # sass
 sass:
-    sass_dir: _sass
-    style: compact
+  sass_dir: _sass
+  style: compact
 
 # Should publish post with dates in the future
 future: false
@@ -68,6 +66,5 @@ feed:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
 # Custom variables
 # google_analytics : "UA-102896129-1"

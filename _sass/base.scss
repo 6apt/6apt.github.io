@@ -10,7 +10,7 @@
 // ====================
 $font_headers: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
   monospace;
-$font_main_text: 'Open Sans', sans-serif;
+$font_main_text: "Open Sans", sans-serif;
 
 // ====================
 // Colors
@@ -118,7 +118,7 @@ $current_tag_color: desaturate(
   max-width: 25%;
   margin-left: 20px;
 
-//   height: 100%;
+  //   height: 100%;
 }
 
 // ====================
@@ -352,7 +352,7 @@ footer a:hover {
 }
 
 .side-bar-title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 // ====================
@@ -401,18 +401,17 @@ footer a:hover {
 // ====================
 section img {
   max-width: 100%;
-  transition:transform 0.25s ease;
+  transition: transform 0.25s ease;
 }
 
 article img:hover {
-    cursor: url('/assets/icons/magnifier_32_32.png'), auto;
-    // cursor: grabbing;
-    transform:scale(1.01);
-
+  cursor: url("/assets/icons/magnifier_32_32.png"), auto;
+  // cursor: grabbing;
+  transform: scale(1.01);
 }
 
 article img:active {
-    transform:scale(2.0);
+  transform: scale(2);
 }
 
 h1,
@@ -462,8 +461,8 @@ a {
 }
 
 section a:hover {
-    text-decoration: underline;
-    // background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: underline;
+  // background-color: rgba(0, 0, 0, 0.9);
 }
 
 // ====================
