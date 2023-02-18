@@ -10,7 +10,7 @@
 // ====================
 $font_headers: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
   monospace;
-$font_main_text: arial, sans-serif;
+$font_main_text: 'Open Sans', sans-serif;
 
 // ====================
 // Colors
@@ -60,7 +60,7 @@ $background_color: $logo_background_color
   );
 
 // Links
-$link_color: #c47b06;
+$link_color: #82bf69;
 $link_hover_background: rgba(0, 0, 0, 0.4);
 
 $header_color: $link_color;
@@ -132,7 +132,6 @@ body {
   // text
   color: $medium_high_emphasis_text_color;
   font-family: $font_main_text;
-  font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
 
@@ -158,11 +157,13 @@ header {
 .header-logo img {
   filter: contrast(110%); // maybe
   -webkit-filter: contrast(110%); // maybe
+  filter: invert(1);
 }
 
 .header-logo img:hover {
   filter: contrast(100%); // maybe
   -webkit-filter: contrast(100%); // maybe
+  filter: invert(1);
   // -webkit-filter: grayscale(100%);
   //   -webkit-filter: brightness(1.1); // maybe
   // -webkit-filter: blur(1px);
@@ -332,6 +333,7 @@ footer a:hover {
   margin-top: 0px;
   padding-top: 0px;
   border: 0px;
+  font-size: 2em;
 }
 
 .post-time {
@@ -361,7 +363,7 @@ footer a:hover {
   border: $code_border;
 
   color: $high_emphasis_text_color !important;
-  font-size: 0.875em;
+  font-size: 1em;
   font-family: monospace;
 }
 
@@ -424,12 +426,12 @@ h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 h2 {
   margin-top: 2em;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 h3 {

@@ -9,10 +9,13 @@ This is a sample page.
 This is an h1. These be linked with: [{{post.url}}#header-1]({{post.url}}#header-1)
 
 ## h2
+Example
 
 ### h3
+Example
 
 #### h4
+Example
 
 ## text
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.

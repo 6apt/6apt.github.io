@@ -6,8 +6,12 @@
   <!-- seo also outputs a title tag.. Do we need to? (this one has precedence) -->
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" }}">
+  <link rel="stylesheet" href="{{ " /css/main.css" }}">
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
 
   {% seo %}
 
