@@ -54,7 +54,7 @@ Pelas 15h e já sem nevoeiro lá iniciámos a subida até o Col de la Muzelle (2
 
 FOTOS
 
-Bivacámos não muito longe da Cabane du Ramu, fizemos o jantar, e falámos durante horas de como testar se a neve estava propícia a causar avalanches, de [downhill](https://www.youtube.com/watch?v=tZlYlJGWf4w) (não de bicicletas!), das aventuras de Mike Horn, e de muitas outras coisas até que finalmente escureceu por volta das 22h numa longa noite de Junho.
+Bivacámos não muito longe da Cabane du Ramu, fizemos o jantar, e falámos durante horas de como testar se a neve estava propícia a causar avalanches, de [downhill](https://www.youtube.com/watch?v=tZlYlJGWf4w&t=561s) (não de bicicletas!), das aventuras de Mike Horn, e de muitas outras coisas até que finalmente escureceu por volta das 22h numa longa noite de Junho.
 
 FOTOS
 

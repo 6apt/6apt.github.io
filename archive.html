@@ -7,7 +7,7 @@ title: Archive
 {% capture first_year %}{{ posts_to_list[0].date | date: '%Y' }}{% endcapture %}
 {% assign current_year = first_year %}
 
-<h4>{{ first_year }}</h4>
+<h2>{{ first_year }}</h2>
 <ul>
 
 {% for post in posts_to_list %}
@@ -15,7 +15,7 @@ title: Archive
   {% if year != current_year %}
     {% assign current_year = year %}
     </ul>
-    <h4>{{ year }}</h4>
+    <h2>{{ year }}</h2>
     <ul>
   {% endif %}
   <li>

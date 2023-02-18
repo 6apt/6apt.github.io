@@ -48,16 +48,15 @@ $container_background_color: #121212;
 $bg_color_light: $logo_background_color;
 $bg_color_dark: $logo_background_color;
 
-$background_color: $logo_background_color
-  linear-gradient(
-    90deg,
-    $logo_background_color 0%,
-    $bg_color_dark 10%,
-    $bg_color_light 40%,
-    $bg_color_light 60%,
-    $bg_color_dark 90%,
-    $logo_background_color 100%
-  );
+$background_color: $logo_background_color linear-gradient(
+  90deg,
+  $logo_background_color 0%,
+  $bg_color_dark 10%,
+  $bg_color_light 40%,
+  $bg_color_light 60%,
+  $bg_color_dark 90%,
+  $logo_background_color 100%
+);
 
 // Links
 $link_color: #82bf69;
@@ -66,7 +65,7 @@ $link_hover_background: rgba(0, 0, 0, 0.4);
 $header_color: $link_color;
 $separator_color: $low_emphasis_text_color;
 
-$article_border: 1px solid rgba(255, 255, 255, 0.05);
+$article_outline: 1px solid #2b2b2b;
 
 // Tag
 $current_tag_color: desaturate(
@@ -96,17 +95,22 @@ $current_tag_color: desaturate(
   padding-left: 2%;
 }
 
+.post-container {
+  display: flex;
+}
+
 .content-container {
   background: $container_background_color;
+
+  outline: $article_outline;
+  outline-offset: -1px;
+  border-radius: 2px;
 
   padding-top: 20px;
   padding-bottom: 10px;
 
   padding-right: 10px;
   padding-left: 10px;
-
-  border-right: $article_border;
-  border-left: $article_border;
 }
 
 .middle-container {
@@ -117,8 +121,6 @@ $current_tag_color: desaturate(
   flex: 0 0 25%;
   max-width: 25%;
   margin-left: 20px;
-
-  //   height: 100%;
 }
 
 // ====================
@@ -150,20 +152,16 @@ header {
 }
 
 .header-logo {
-  padding-bottom: 20px;
-  text-align: center;
+  padding-top: 20px;
+  text-align: left;
 }
 
 .header-logo img {
-  filter: contrast(110%); // maybe
-  -webkit-filter: contrast(110%); // maybe
-  filter: invert(1);
+  filter: contrast(100%); // maybe
 }
 
 .header-logo img:hover {
-  filter: contrast(100%); // maybe
-  -webkit-filter: contrast(100%); // maybe
-  filter: invert(1);
+  filter: contrast(150%); // maybe
   // -webkit-filter: grayscale(100%);
   //   -webkit-filter: brightness(1.1); // maybe
   // -webkit-filter: blur(1px);
@@ -174,9 +172,11 @@ header {
   // -webkit-filter: invert(10%);
 }
 
-nav {
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+
   background: $nav_background_color;
-  border-top: $article_border;
 
   padding-top: 4px;
   padding-bottom: 4px;
@@ -265,7 +265,6 @@ footer a:hover {
   padding: 8px;
 
   color: $link_color;
-  border: $article_border;
 }
 
 .pagination a:hover {
@@ -326,6 +325,20 @@ footer a:hover {
 @media (max-width: 600px) {
   .post-title-and-tags {
     display: block;
+  }
+
+  .post-container {
+    flex-direction: column;
+  }
+
+  .middle-container {
+    width: 100%;
+  }
+
+  .side-container {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
 
@@ -433,7 +446,6 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em;
   font-size: 1.5em;
 }
 
@@ -550,11 +562,13 @@ strong {
 // ====================
 table {
   border-collapse: collapse;
+  margin: 0em;
+  margin-top: 0.9em;
 }
 
 th,
 td {
-  border: 1px solid $low_emphasis_text_color;
+  border: 1px solid #404040;
   padding: 5px 10px;
 }
 
