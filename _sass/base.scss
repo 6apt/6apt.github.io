@@ -123,6 +123,10 @@ $current_tag_color: desaturate(
   margin-left: 20px;
 }
 
+.side-container h3:first-of-type {
+  margin-top: 0px;
+}
+
 // ====================
 // Body
 // ====================
@@ -297,7 +301,11 @@ footer a:hover {
 .home-post {
   padding: 20px;
   padding-bottom: 0px; // The padding will come from the .home-post-excerpt.
-  border-radius: 6px;
+  border-radius: 2px;
+}
+
+.home-posts .home-post:first-of-type {
+  margin-top: 0px;
 }
 
 .home-post-excerpt {
@@ -307,6 +315,8 @@ footer a:hover {
 
 .home-post:hover {
   background-color: $link_hover_background;
+  outline: $article_outline;
+  outline-offset: -1px;
 }
 
 .home-post h1 {
@@ -382,6 +392,8 @@ footer a:hover {
   color: $high_emphasis_text_color !important;
   font-size: 1em;
   font-family: monospace;
+
+  white-space: nowrap;
 }
 
 .tag:hover {
@@ -425,6 +437,10 @@ article img:hover {
 
 article img:active {
   transform: scale(2);
+}
+
+article h2:first-of-type {
+  margin-top: 0px;
 }
 
 h1,
